@@ -1,0 +1,28 @@
+.wrapper-banner {
+  margin: 20% auto 0 0;
+}
+
+.wrapper-banner h2 {
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #c3e0e5;
+}
+
+.wrapper-banner p {
+  font-size: 1.7rem;
+}
+
+.btn-free-trial button {
+  padding: 1.5rem;
+  background: #c3e0e5;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #41729f;
+  letter-spacing: 5px;
+}
+
+.btn-free-trial .btn:hover {
+  background: #274472;
+  color: #c3e0e5;
+  transition: .7s;
+}

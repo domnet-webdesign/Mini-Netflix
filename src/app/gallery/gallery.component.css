@@ -1,0 +1,54 @@
+.movies-title  {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  padding: 4rem 0 0 0;
+}
+
+.movies-poster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  margin: 10px;
+  width: 20rem;
+  border: 4px solid #eee;
+  box-shadow: #555 1px 1px 8px 1px;
+
+}
+
+.card a img {
+  display: inline-block;
+}
+
+.movies-poster .card-body h5{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.movies-poster .card-body p{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btton {
+  display: inline-block;
+  margin: 0 .5rem .8rem .5rem;
+}
+
+.movies-poster .btn {
+  background: #274472;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  
+  width: 9rem;
+}
+
+.movies-poster .btn:hover {
+  background: #5885af;
+}
+

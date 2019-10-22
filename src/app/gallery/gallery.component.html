@@ -1,0 +1,35 @@
+    <h3 class="movies-title text-center">
+      {{title}}
+    </h3>
+
+      <div class="row movies-poster">
+        <div class="card" *ngFor="let image of visibleImages">
+                <a href="#">
+                  <img src="{{image.url}}" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                      <h5 class="card-title">{{image.moviesTitle}}</h5>
+                      <p class="card-text">{{image.yearOfProduction}}</p>
+                      <p>{{image.Genre}}</p>
+                </div>
+                <div class="btton">
+                    <button class="btn btn-default">Detail</button>&nbsp;
+                    <button class="btn btn-default">Favourite</button>
+                </div>
+                
+        </div>
+      </div>
+
+
+
+
+      <!-- <ul id="thumbnailsList">
+         for looping -->
+        <!-- <li *ngFor="let image of visibleImages">
+          <a href="#">
+            <img src="{{image.url}}" alt="" class="tn" width="200" height="160">
+          </a>
+        </li>
+      </ul>
+    </div> -->
+
